@@ -1,0 +1,40 @@
+.header {
+    height: 40px;
+    padding: 20px 20px 0;
+    background: #e1e1e1;
+}
+
+.main-content {
+    height: 60vh;
+    padding: 20px;
+}
+
+footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+}
+
+.navigation {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #666;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.navigation a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+}
+
+.navigation a:hover {
+    color: #f1f1f1;
+}

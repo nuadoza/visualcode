@@ -1,0 +1,119 @@
+.box-1 {
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(219, 80, 219, 0.449);
+    border: 2px solid black;
+}
+
+.box-2 {
+    height: 450px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(128, 217, 218, 0.449);
+    border: 2px solid black;
+}
+
+.box-3 {
+    height: 530px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(36, 165, 32, 0.237);
+    border: 2px solid black;
+}
+
+.box-4 {
+    height: 600px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(169, 193, 47, 0.237);
+    border: 2px solid black;
+}
+
+.box-5 {
+    height: 420px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(221, 255, 0, 0.519);
+    border: 2px solid black;
+}
+
+.box-6 {
+    height: 300px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 196, 0);
+    border: 2px solid black;
+}
+
+.box-task {
+
+    height: 80px;
+}
+
+.topNubex {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    padding: 5px;
+}
+
+.box-back {
+    width: 160px;
+    height: 40px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.none {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    border: 2px green solid;
+    background-color: blanchedalmond;
+    padding: 10px;
+
+}
+
+.menu li a.selected {
+    color: aquamarine;
+    background-color: blue;
+    border: 2px grey solid;
+    padding: 8px;
+}
+
+.menu li a:hover {
+    background-color: pink;
+    padding: 4px;
+}
+
+.menu li a:link {
+    color: red;
+}
+
+.menu li a.active {
+    color: rgb(242, 255, 0);
+}
+
+.menu li a:visited {
+    color: rgb(0, 132, 255);
+}

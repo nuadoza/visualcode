@@ -1,0 +1,74 @@
+.box-2 {
+    width: 700px;
+    height: 740px;
+    border: 2px solid #000;
+    background-color: rgba(35, 216, 207, 0.233);
+    padding: 45px;
+    color: #000;
+}
+
+.building {
+    width: 700px;
+    height: 600px;
+    background-color: #b5651d;
+    border: 5px solid #000;
+}
+
+.window {
+    width: 100px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.elevator-shaft {
+    position: relative;
+    width: 40px;
+    height: 600px;
+    background-color: #cccccc;
+    border: 2px solid #000;
+}
+
+#elevator {
+    position: absolute;
+    width: 112px;
+    height: 205px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    bottom: 0;
+    animation: moveElevator 6s infinite alternate;
+}
+
+@keyframes moveElevator {
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 400px;
+    }
+}
+
+.box-task {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+
+.topNubex {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    padding: 5px;
+}
+
+.box-3 {
+    width: 160px;
+    height: 40px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.none {
+    list-style: none;
+}

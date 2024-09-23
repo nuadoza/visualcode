@@ -1,0 +1,111 @@
+.box {
+    height: 260px;
+    width: 380px;
+}
+
+.box-1 {
+    height: 130px;
+    width: 340px;
+}
+
+.box-2 {
+    height: 300px;
+    width: 450px;
+}
+
+.box-3 {
+    height: 360px;
+    width: 450px;
+}
+
+.box-4 {
+    height: 300px;
+    width: 550px;
+}
+
+.box-5 {
+    height: 300px;
+    width: 550px;
+    background-color: #e4e41278;
+    border: 5px solid #54540778;
+}
+
+.image-1 {
+    position: absolute;
+}
+
+.image-2 {
+    position: absolute;
+    border: 10px solid #f6ff00;
+}
+
+.image-3 {
+    position: absolute;
+    border: 8px dashed #ffffff;
+}
+
+.image-4 {
+    position: absolute;
+}
+
+.image-5 {
+    position: absolute;
+}
+
+.image-6 {
+    position: absolute;
+}
+
+.text {
+    position: absolute;
+    color: red;
+    font-size: 300%;
+}
+
+.text-2 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 200%;
+}
+
+.text-3 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 150%;
+    margin-left: 37%;
+}
+
+.text-4 {
+    position: absolute;
+    color: #575702ae;
+    font-size: 350%;
+    margin-left: 10%;
+    font-family: Monotype Corsiva;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.box-task {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+
+.topNubex {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    padding: 5px;
+}
+
+.box-7 {
+    width: 160px;
+    height: 40px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.none {
+    list-style: none;
+}
